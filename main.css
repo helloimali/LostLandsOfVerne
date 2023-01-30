@@ -1,6 +1,17 @@
+@font-face {
+   font-family: Kingthings;
+   src: url(fonts/Kingthings_Foundation.ttf);
+}
+
+@font-face {
+   font-family: Maragsa;
+   src: url(fonts/Maragsa-Display.otf);
+}
+
 body{
     text-align: center;
-		font-family: 'Raleway';
+		font-family: 'Maragsa';
+		font-weight: 100;
 }
 .mainCenter{
 
@@ -58,12 +69,12 @@ body{
 }
 
 .subTitle{
-		font-family: 'Raleway';
+		font-family: 'Kingthings';
 		font-weight: 600;
 		padding: 20px;
 		margin-left: 300px;
 		margin-right: 300px;
-	border-radius: 4%;
+		border-radius: 25px;
 }
 
 .padding{
@@ -90,11 +101,21 @@ body{
 	color: rgb(41,31,10);
 }
 
+.brownWhiteSmall{
+	background-color: rgb(41,31,10);
+	color: white;
+	font-size: 24px;
+}
+
 .navBarBrown{
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-top: -30px;
 	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+  border-radius: 25px;
+	font-size: 22px;
 }
 
 .banner{
