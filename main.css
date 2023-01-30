@@ -17,7 +17,6 @@ body{
 		font-weight: 100;
 }
 .mainCenter{
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,6 +27,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 		height: 100%;
+}
+
+.welcome{
+		background-image: url(imgs/background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 20px;
+		padding-bottom: 1px;
 }
 
 .animate__animated.animate__fadeIn {
@@ -132,4 +139,6 @@ body{
 	background-image: url(imgs/boardgameMap.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
