@@ -60,6 +60,10 @@ body{
 .subTitle{
 		font-family: 'Raleway';
 		font-weight: 600;
+		padding: 20px;
+		margin-left: 300px;
+		margin-right: 300px;
+	border-radius: 4%;
 }
 
 .padding{
@@ -67,4 +71,39 @@ body{
 		padding-bottom: 50px;
 		font-weight: 700;
 		font-size: 62px;
+}
+
+.brownWhite{
+	background-color: rgb(41,31,10);
+	color: white;
+	font-size: 24px;
+	padding: 50px;
+}
+
+.brownWhiteAlpha{
+	background-color: rgba(41,31,10,0.8);
+	color: white;
+}
+
+.brownWhiteLight{
+	background-color: rgb(244,238,216);
+	color: rgb(41,31,10);
+}
+
+.navBarBrown{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: -30px;
+	padding: 10px;
+}
+
+.banner{
+		background-image: url(imgs/warfare.png);
+		height: 170px;
+}
+
+.boardGameBack{
+	background-image: url(imgs/boardgameMap.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
