@@ -8,6 +8,9 @@
    src: url(fonts/Maragsa-Display.otf);
 }
 
+h4{
+	margin-bottom:0px;
+}
 body{
     text-align: center;
 		font-family: 'Maragsa';
